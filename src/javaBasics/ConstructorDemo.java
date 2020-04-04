@@ -15,12 +15,11 @@ public class ConstructorDemo {
 		System.out.println(obj.a);
 		System.out.println(obj.b);
 		ConstructorDemo obj2 = new ConstructorDemo("mayank", "hggjg");
-	
 
 	}
 
 	public ConstructorDemo(String firstName) {
-		//this(); // calling default constructor
+		// this(); // calling default constructor
 	}
 
 	public ConstructorDemo(String firstName, String lastName) {

@@ -1,4 +1,4 @@
-package problems;
+package com.javalearning.problems;
 
 public class FindEvenPositionValue {
 

@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javalearning.javabasics;
 
 public class Basics1 {
 	static final double piValue = 3.14;

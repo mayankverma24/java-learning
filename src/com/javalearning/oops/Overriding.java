@@ -1,4 +1,4 @@
-package oops;
+package com.javalearning.oops;
 
 class Parent {
 	public void Property() {

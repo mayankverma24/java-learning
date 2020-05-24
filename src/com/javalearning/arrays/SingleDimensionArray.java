@@ -1,4 +1,4 @@
-package arrays;
+package com.javalearning.arrays;
 
 public class SingleDimensionArray {
 

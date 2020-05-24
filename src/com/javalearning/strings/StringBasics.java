@@ -1,4 +1,4 @@
-package strings;
+package com.javalearning.strings;
 
 public class StringBasics {
 

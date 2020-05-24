@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javalearning.javabasics;
 
 public class ConstructorDemo {
 	int a;
@@ -15,7 +15,6 @@ public class ConstructorDemo {
 		System.out.println(obj.a);
 		System.out.println(obj.b);
 		ConstructorDemo obj2 = new ConstructorDemo("mayank", "hggjg");
-
 	}
 
 	public ConstructorDemo(String firstName) {

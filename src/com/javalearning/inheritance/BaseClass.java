@@ -1,4 +1,4 @@
-package inheritance;
+package com.javalearning.inheritance;
 
 class BaseClass {
 	int z;

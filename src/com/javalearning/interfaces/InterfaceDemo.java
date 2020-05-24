@@ -1,4 +1,4 @@
-package interfaces;
+package com.javalearning.interfaces;
 
 public interface InterfaceDemo {
 	public void m1();

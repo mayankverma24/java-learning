@@ -1,6 +1,6 @@
 //Removing Duplicates Using Java 8 Stream.distinct()
 
-package problems;
+package com.javalearning.problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;

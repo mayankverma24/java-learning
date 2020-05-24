@@ -1,4 +1,4 @@
-package modifiers;
+package com.javalearning.modifiers;
 
 public class StaticModifierDemo {
 	static int x = 10;

@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javalearning.javabasics;
 
 public class EncapsulationDemo {
 	private int k = 3;

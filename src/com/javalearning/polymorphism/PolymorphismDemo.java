@@ -1,4 +1,4 @@
-package polymorphism;
+package com.javalearning.polymorphism;
 
 //import org.apache.commons.collections4.Get;
 

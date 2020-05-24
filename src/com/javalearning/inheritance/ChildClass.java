@@ -1,4 +1,4 @@
-package inheritance;
+package com.javalearning.inheritance;
 
 public class ChildClass extends BaseClass {
 	public void multiplication(int x, int y) {

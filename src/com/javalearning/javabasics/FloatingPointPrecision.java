@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javalearning.javabasics;
 
 public class FloatingPointPrecision {
 	public static void main(String[] args) {

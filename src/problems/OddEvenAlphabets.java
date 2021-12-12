@@ -2,6 +2,7 @@ package problems;
 
 import java.util.Scanner;
 
+//Separate alphabets at even and odd index
 public class OddEvenAlphabets {
 
 	public static void main(String[] args) {

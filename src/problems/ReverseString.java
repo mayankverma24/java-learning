@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		using_for_loop();
-		// using_StringBuilder();
-		// using_StringBuffer();
+		Reverse_String();
 	}
 
-	public static void using_for_loop() {
+	public static void Reverse_String() {
 		System.out.println("Enter string to reverse:");
 		Scanner read = new Scanner(System.in);
 
@@ -19,32 +17,18 @@ public class ReverseString {
 		for (int i = inputStr.length() - 1; i >= 0; i--) {
 			reverse = reverse + inputStr.charAt(i);
 		}
-
-		System.out.println("Reversed string is: " + reverse);
-		read.close();
-	}
-
-	public static void using_StringBuilder() {
-		System.out.println("Enter string to reverse:");
-		Scanner read = new Scanner(System.in);
-
-		String inputStr = read.nextLine();
+		System.out.println("Reversed string using for-loop is: " + reverse);
+		
+		//Using StringBuilder
 		StringBuilder builder = new StringBuilder(inputStr);
 		builder.reverse();
-
-		System.out.println("Reversed string is: " + builder);
-		read.close();
-	}
-
-	public static void using_StringBuffer() {
-		System.out.println("Enter string to reverse:");
-		Scanner read = new Scanner(System.in);
-
-		String inputStr = read.nextLine();
+		System.out.println("Reversed string using StringBuilder is: " + builder);
+		
+		//Using StringBuffer
 		StringBuffer buffer = new StringBuffer(inputStr);
 		buffer.reverse();
-
-		System.out.println("Reversed string is: " + buffer);
+		System.out.println("Reversed string using StringBuffer is: " + buffer);
+		
 		read.close();
 	}
 }

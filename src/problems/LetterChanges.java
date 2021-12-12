@@ -8,8 +8,15 @@ import java.util.Scanner;
 
 public class LetterChanges {
 	public static String LetterChange(String str) {
+		String newString = null;
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			//int ascii = ch;
+			ch++;
+			newString += Character.toString(ch);
+		}
 
-		return str;
+		return newString;
 	}
 
 	public static void main(String[] args) {

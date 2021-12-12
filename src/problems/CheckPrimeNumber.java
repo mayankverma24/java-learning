@@ -17,9 +17,9 @@ public class CheckPrimeNumber {
 			}
 		}
 		if (!flag) {
-			System.out.println(n + " is Prime");
+			System.out.println(n + " is a Prime number");
 		} else {
-			System.out.println(n + " is not Prime");
+			System.out.println(n + " is not a Prime number");
 		}
 		read.close();
 	}

@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class FileRead {
 	private Properties properties;
-	private final String propertyFilePath = "C:\\Users\\mayan\\git\\java-learning\\java-learning\\config.properties";
+	private final String propertyFilePath = "C:\\Users\\mayank\\eclipse-workspace\\java-learning\\config.properties";
 
 	public FileRead() {
 		try {

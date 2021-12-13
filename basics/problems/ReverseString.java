@@ -15,7 +15,7 @@ public class ReverseString {
 		String inputStr = read.nextLine();
 		String reverse = "";
 		for (int i = inputStr.length() - 1; i >= 0; i--) {
-			reverse = reverse + inputStr.charAt(i);
+			reverse += inputStr.charAt(i);
 		}
 		System.out.println("Reversed string using for-loop is: " + reverse);
 		

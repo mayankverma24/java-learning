@@ -21,4 +21,10 @@ public class demo implements InterfaceDemo {
 	public void m2() {
 		
 	}
+
+	@Override
+	public void m5() {
+		// TODO Auto-generated method stub
+		
+	}
 }

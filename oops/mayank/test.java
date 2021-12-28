@@ -1,17 +1,14 @@
 package mayank;
 
 public class test {
-	private String name;
 
-	public test(String name) {
-		this.name = name;
-	}
+	public static void main(String[] args) {
+		int num = 5;
+		int fac = 1;
 
-	public String getName() {
-		return name;
-	}
-	public test() {
-		this("fern");
+		for (int i = 2; i <= num; i++) {
+			fac = fac*i;
+		}
+		System.out.println(fac);
 	}
 }
-

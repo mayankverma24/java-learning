@@ -5,7 +5,7 @@ import java.util.TreeSet;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
-public class SetDemo {
+public class SetDemo2 {
 
 	public static void main(String[] args) {
 		// Set demonstration using HashSet
@@ -23,7 +23,7 @@ public class SetDemo {
 
 		// Set demonstration using TreeSet
 		Set<String> treeSet = new TreeSet<String>(hashSet);
-
+		
 		System.out.println("Sorted Set after passing into TreeSet " + '\n' + treeSet);
 
 		LinkedHashSet<Integer> linked_HashSet = new LinkedHashSet<Integer>();

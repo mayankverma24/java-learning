@@ -3,11 +3,11 @@ package problems;
 public class SimpleArraySum {
 
 	static int simpleArraySum(int[] ar) {
-		int temp = 0;
+		int sum = 0;
 		for (int i = 0; i < ar.length; i++) {
-			temp = ar[i] + temp;
+			sum = ar[i] + sum;
 		}
-		return temp;
+		return sum;
 	}
 
 	public static void main(String[] args) {

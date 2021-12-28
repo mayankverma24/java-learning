@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ReverseString {
 
 	public static void main(String[] args) {
+		reverse("mayank");
 		Reverse_String();
 	}
 
@@ -18,17 +19,29 @@ public class ReverseString {
 			reverse += inputStr.charAt(i);
 		}
 		System.out.println("Reversed string using for-loop is: " + reverse);
-		
-		//Using StringBuilder
+
+		// Using StringBuilder
 		StringBuilder builder = new StringBuilder(inputStr);
 		builder.reverse();
 		System.out.println("Reversed string using StringBuilder is: " + builder);
-		
-		//Using StringBuffer
+
+		// Using StringBuffer
 		StringBuffer buffer = new StringBuffer(inputStr);
 		buffer.reverse();
 		System.out.println("Reversed string using StringBuffer is: " + buffer);
-		
 		read.close();
+
 	}
+
+	// Using recursion
+	public static void reverse(String str) {
+		if (str.isEmpty()) {
+			return;
+		} else {
+			reverse(str.substring(1));
+			System.out.print(str.charAt(0));
+
+		}
+	}
+
 }

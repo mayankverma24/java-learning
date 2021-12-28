@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArraySorting {
 
 	public static void main(String[] args) {
-		using_for_loop();
+		using_arrays_dot_sort();
 	}
 
 	public static void using_arrays_dot_sort() {

@@ -8,14 +8,14 @@ public class Factorial {
 		System.out.println("Enter a number: ");
 		Scanner read = new Scanner(System.in);
 		int num = read.nextInt();
-		//System.out.println("Factorial is " + factorial_using_loop(num));
+		// System.out.println("Factorial is " + factorial_using_loop(num));
 		System.out.println("Factorial is " + factorial_using_recursion(num));
 		read.close();
 	}
 
 	public static int factorial_using_loop(int num) {
 		int fac = 1;
-		for (int i = 1; i <= num; i++) {
+		for (int i = 2; i <= num; i++) {
 			fac = i * fac;
 		}
 		return fac;

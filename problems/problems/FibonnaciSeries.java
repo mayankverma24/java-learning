@@ -30,7 +30,8 @@ public class FibonnaciSeries {
 			a = b;
 			b = c;
 			c = a + b;
-			System.out.println(a + ""); // if you want to print on the same line, use print()
+			System.out.print(a + " "); // if you want to print on the same line, use
+
 		}
 	}
 }

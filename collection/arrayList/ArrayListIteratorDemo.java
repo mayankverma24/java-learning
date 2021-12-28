@@ -6,12 +6,12 @@ import java.util.Iterator;
 public class ArrayListIteratorDemo {
 
 	public static void main(String[] args) {
-		ArrayList al = new ArrayList();
-		al.add("sdfds");
+		ArrayList<Object> al = new ArrayList<Object>();
+		al.add("mayank");
 		al.add(1);
-		al.add(1);
+		al.add(2);
 		al.size();
-		Iterator itr = al.iterator();
+		Iterator<Object> itr = al.iterator();
 		while (itr.hasNext()) {
 			Object value = itr.next();
 			System.out.println(value);

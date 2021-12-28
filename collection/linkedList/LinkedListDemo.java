@@ -16,6 +16,7 @@ public class LinkedListDemo {
 		l.addFirst("CCC"); // [CCC, Venky, Software, 30, null]
 		System.out.println(l); // [CCC, Venky, Software, 30, null]
 
+		
 	}
 
 }

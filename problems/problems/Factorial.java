@@ -22,7 +22,7 @@ public class Factorial {
 	}
 
 	public static int factorial_using_recursion(int num) {
-		if (num < 1) {
+		if (num <= 1) {
 			return 1;
 		} else {
 			return num * factorial_using_recursion(num - 1);

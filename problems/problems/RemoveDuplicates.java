@@ -14,7 +14,7 @@ public class RemoveDuplicates {
 		// Print the Arraylist
 		System.out.println("ArrayList with duplicates: " + list);
 
-		// Construct a new list from the set constucted from elements
+		// Construct a new list from the set constructed from elements
 		// of the original list
 		List<Integer> newList = list.stream().distinct().collect(Collectors.toList());
 		// Print the ArrayList with duplicates removed

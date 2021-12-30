@@ -13,6 +13,7 @@ public class SimpleArraySum {
 	public static void main(String[] args) {
 		int[] newArray = { 1, 2, 3, 4, 10, 11 };
 		System.out.println(simpleArraySum(newArray));
+		
 	}
 
 }

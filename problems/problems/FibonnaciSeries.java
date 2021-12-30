@@ -8,23 +8,26 @@ public class FibonnaciSeries {
 		System.out.println("Enter a number: ");
 		Scanner read = new Scanner(System.in);
 		int num = read.nextInt();
-		fibonnaci_using_loop(num);
-		// System.out.println("Fibonnaci series is " + fibonnaci_using_recursion(num));
+		// fibLoop(num);
+		System.out.println("Fibonnaci series is " + fibRecursion(num));
 		read.close();
 	}
 
-	public static int fibonnaci_using_recursion(int num) {
-		if (num < 1) {
-			// System.out.println("Error");
-		} else if (num == 1 || num == 2) {
-			return (num - 1);
+	public static int fibRecursion(int num) {
+		// num = 1;
+		if (num ==0) {
+			return 0;
+			} else if (num == 1 || num == 2) {
+			return 1;
 		} else {
-			return fibonnaci_using_recursion(num - 1) + fibonnaci_using_recursion(num - 2);
+			return fibRecursion(num - 1) + fibRecursion(num - 2);
 		}
-		return fibonnaci_using_recursion(num - 1) + fibonnaci_using_recursion(num - 2);
+		//return fibRecursion(num - 1) + fibRecursion(num - 2);
+		//return fibRecursion(num);
+
 	}
 
-	public static void fibonnaci_using_loop(int num) {
+	public static void fibLoop(int num) {
 		int a = 0, b = 0, c = 1;
 		for (int i = 0; i <= num; i++) {
 			a = b;

@@ -75,4 +75,3 @@ public class InsertInLinkedList {
 		llist.printList();
 	}
 }
-/* This code is contributed by Rajat Mishra */

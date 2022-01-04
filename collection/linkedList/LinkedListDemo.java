@@ -1,5 +1,6 @@
 package linkedList;
 
+import java.util.Collection;
 import java.util.LinkedList;
 
 public class LinkedListDemo {
@@ -16,6 +17,9 @@ public class LinkedListDemo {
 		l.addFirst("CCC"); // [CCC, Venky, Software, 30, null]
 		System.out.println(l); // [CCC, Venky, Software, 30, null]
 
+		//LinkedList l1 = new LinkedList(Collection c);
+		
+		
 		
 	}
 
